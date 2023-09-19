@@ -1,0 +1,24 @@
+npm outdated
+npm ls @hapi/address
+
+
+I want you to act as a Senior Frontend developer. Respond in Chinese and code block,My first request is []
+
+
+
+git merge --abort
+
+
+const { application: { type='' } } = values;
+const { application: type } = values;
+
+
+I want you to act as a Senior Frontend developer. Respond in Chinese and code block,My first request is []
+
+
+git checkout main
+git branch | grep -v 'main' | xargs git branch -D
+
+
+arch -arm64 zsh
+arch -x86_64 zsh
