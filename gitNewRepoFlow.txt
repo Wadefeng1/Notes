@@ -1,0 +1,39 @@
+echo "# Notes" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/Wadefeng1/Notes.git
+git push -u origin master
+
+
+git remote add origin https://github.com/Wadefeng1/Notes.git
+git branch -M master
+git push -u origin master
+
+
+如果你想删除与你的本地Git仓库相关联的远程仓库链接，你可以使用以下步骤。这里我们假设远程仓库的名称是origin，这是Git默认的远程仓库名称：
+查看现有的远程仓库：
+首先，你可以确认要删除的远程仓库的名称：
+
+bash
+Copy code
+git remote -v
+这将列出与本地仓库相关联的所有远程仓库及其URLs。输出可能看起来像这样：
+
+perl
+Copy code
+origin  https://github.com/username/repository.git (fetch)
+origin  https://github.com/username/repository.git (push)
+删除远程仓库链接：
+
+使用以下命令删除origin远程仓库链接：
+
+bash
+Copy code
+git remote remove origin
+如果你的远程仓库有不同的名称，请用适当的名称替换origin。
+
+完成这些步骤后，你的本地仓库将不再与远程仓库origin相关联。
+
+请注意，此操作仅在本地仓库中删除远程仓库的链接，不会删除实际的远程仓库或其内容。如果你想删除GitHub、GitLab等在线平台上的实际远程仓库，你需要登录到相应的平台并手动进行删除操作。
