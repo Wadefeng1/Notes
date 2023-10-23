@@ -1,2 +1,5 @@
 How to config oh-my-zsh in macos?
 https://www.zhihu.com/tardis/bd/art/608419886?source_id=1001
+
+How to clone project by access token with https？
+git clone https://oauth2:yourToken@projectAddress
