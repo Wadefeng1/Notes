@@ -22,3 +22,6 @@ git branch | grep -v 'main' | xargs git branch -D
 
 arch -arm64 zsh
 arch -x86_64 zsh
+
+serve -s dist -p 6666 
+npm run serve -- --port 5500
